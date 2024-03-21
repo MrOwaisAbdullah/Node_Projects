@@ -3,7 +3,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-console.log(chalk.green.bold("Welcome to My Simple Calculator!\n"));
+console.log(chalk.green.bold("\t\t\tWelcome to My Simple Calculator!\n"));
 
 let continueCalculating = true;
 
@@ -63,6 +63,6 @@ while (continueCalculating) {
     continueCalculating = continueCalculation;
 
     if (!continueCalculating) {
-        console.log(chalk.green("\nThanks for using My Simple Calculator!"));
+        console.log(chalk.green("\n\tThanks for using My Simple Calculator!"));
     }
 }
